@@ -8,6 +8,8 @@ public class StringRunner {
         int year = 2023;
         idea += year;
         System.out.println(idea);
+        char b = 'B';
+        System.out.println(++b);
 
     }
 }
