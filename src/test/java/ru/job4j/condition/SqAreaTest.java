@@ -1,9 +1,6 @@
 package ru.job4j.condition;
 
 import org.junit.jupiter.api.Test;
-
-import java.util.stream.BaseStream;
-
 import static org.assertj.core.api.Assertions.*;
 
 class SqAreaTest {
