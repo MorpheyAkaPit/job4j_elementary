@@ -43,4 +43,14 @@ public class MinDiapasonTest {
         int expected = -1;
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    public void whenFirstMinOn6() {
+        int[] array = new int[] {6, 5, 4, 3, 2, 1};
+        int start = 2;
+        int finish = 5;
+        int result = MinDiapason.findMin(array, start, finish);
+        int expected = 1;
+        assertThat(result).isEqualTo(expected);
+    }
 }
